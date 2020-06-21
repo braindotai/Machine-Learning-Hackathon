@@ -30,7 +30,7 @@ at least 90%.
 
 - Training data after preprocessing and augmentation
 
-<img src="./sample-training-images.png">
+<img src="./images/sample-training-images.png">
 
 ## The model architecture
 
@@ -129,7 +129,25 @@ Estimated Total Size (MB): 9.26
 
 - And here's the model visualization:
 
-<img src="./model.svg">
+<img src="./images/model.svg">
+
+## Requirements for running training and testing script
+
+1. Pytorch:
+    - If GPU available:
+        - `pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html`
+        - Replace `cu101` with your cuda version.
+    - If GPU not available:
+        - `pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html`
+
+2. Pytorch Summary:
+    `pip install torchsummary`
+
+3. TQDM:
+    `pip install tqdm`
+
+4. Pillow:
+    `pip install Pillow`
 
 
 ## [Training Results](training.ipynb)
@@ -138,11 +156,13 @@ Estimated Total Size (MB): 9.26
 - Validation Accuracy : 99.609375
 
 - Training Loss vs Epoch :-
-<img src="./training-loss.png">
+<img src="./images/training-loss.png">
 
 - Training Accuracy vs Validation Accuracy :-
-<img src="./accuracy-comparision.png">
+<img src="./images/accuracy-comparision.png">
 
 ## [Testing the model](testing.ipynb)
 
 Replace the `test_root` variable value to the test data directory.
+
+# Author - __Rishik Mourya__
