@@ -26,7 +26,7 @@ at least 90%.
 - Applied data augmentation
     1. Random horizontal flip (as the hand could be right or left)
     2. 20 degrees random rotation with bicubic resample
-    3. Filling with 0.85 * <img src="https://render.githubusercontent.com/render/math?math=\large\mu_{image}">
+    3. Filling with <img src="https://render.githubusercontent.com/render/math?math=\large 0.85 * \mu_{image}">
 
 ## The model architecture
 
