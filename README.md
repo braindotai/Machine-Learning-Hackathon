@@ -28,7 +28,7 @@ at least 90%.
     2. -20 to 20 degrees random rotation with bicubic resample
     3. Filling with 0.85 * mean of the image (to prevent strong dark background after the random rotation)
 
-- Training after data preprocessing and augmentation
+- Training data after preprocessing and augmentation
 
 <img src="./sample-training-images.png">
 
