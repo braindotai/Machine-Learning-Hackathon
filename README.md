@@ -34,6 +34,7 @@ at least 90%.
 
 - Here's the model summary:
 
+```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -120,13 +121,14 @@ Forward/backward pass size (MB): 6.36
 Params size (MB): 2.89
 Estimated Total Size (MB): 9.26
 ----------------------------------------------------------------
+```
 
 - And here's the model visualization:
 
 <img src="./model.svg">
 
 
-## [Training Results](training.ipynb))
+## [Training Results](training.ipynb)
 
 - Training Accuracy   : 99.81971
 - Validation Accuracy : 99.609375
@@ -135,7 +137,7 @@ Estimated Total Size (MB): 9.26
 <img src="./training-loss.png">
 
 - Training Accuracy vs Validation Accuracy :-
-<img src="./accuracy-comprision.png">
+<img src="./accuracy-comparision.png">
 
 ## [Testing the model](testing.ipynb)
 
