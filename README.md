@@ -25,8 +25,12 @@ at least 90%.
 
 - Applied data augmentation
     1. Random horizontal flip (as the hand could be right or left)
-    2. 20 degrees random rotation with bicubic resample
-    3. Filling with <img src="https://render.githubusercontent.com/render/math?math=\large 0.85 * \mu_{image}">
+    2. -20 to 20 degrees random rotation with bicubic resample
+    3. Filling with 0.85 * mean of the image (to prevent strong dark background after the random rotation)
+
+- Training after data preprocessing and augmentation
+
+<img src="./sample-training-images.png">
 
 ## The model architecture
 
