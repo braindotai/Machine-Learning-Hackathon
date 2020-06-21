@@ -134,11 +134,8 @@ Estimated Total Size (MB): 9.26
 ## Requirements for running training and testing script
 
 1. Pytorch:
-    - If GPU available:
-        - `pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html`
-        - Replace `cu101` with your cuda version.
-    - If GPU not available:
-        - `pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html`
+    - `pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html`
+    - Replace `cu101` with your cuda version.
 
 2. Pytorch Summary:
     `pip install torchsummary`
