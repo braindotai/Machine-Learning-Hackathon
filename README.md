@@ -28,6 +28,12 @@ at least 90%.
     2. -20 to 20 degrees random rotation with bicubic resample
     3. Filling with 0.85 * mean of the image (to prevent strong dark background after the random rotation)
 
+- Training and Validation data split
+	- About 20% of the data is used for validation.
+	- For each class in validation, there's total 40 images.
+	- So in total I've used 400 images for validation.
+	- And the remaining 1,662 images for training.
+
 - Training data after preprocessing and augmentation
 
 <img src="./images/sample-training-images.png">
@@ -149,14 +155,21 @@ Estimated Total Size (MB): 9.26
 
 ## [Training Results](training.ipynb)
 
-- Training Accuracy   : 99.81971
+- Training Accuracy   : 99.819712
 - Validation Accuracy : 99.609375
+- Validation F1 Score : 0.9939696
 
 - Training Loss vs Epoch :-
 <img src="./images/training-loss.png">
 
 - Training Accuracy vs Validation Accuracy :-
 <img src="./images/accuracy-comparision.png">
+
+- Per Class Accuracy for Validation:-
+<img src="./images/validation-per-class-accuracy.png">
+
+- Confusion Matrix for Validation:-
+<img src="./images/validation-confusion-matrix.png">
 
 ## [Testing the model](testing.ipynb)
 
