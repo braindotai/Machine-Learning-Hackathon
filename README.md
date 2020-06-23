@@ -171,6 +171,8 @@ Estimated Total Size (MB): 9.26
 - Confusion Matrix for Validation:-
 <img src="./images/validation-confusion-matrix.png">
 
+So in validation (out of 400 images), only two images are predicted incorrectly, impressive!
+
 ## [Testing the model](testing.ipynb)
 
 Replace the `test_root` variable value to the test data directory.
