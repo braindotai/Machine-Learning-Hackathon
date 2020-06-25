@@ -12,8 +12,6 @@ at least 90%.
 ## The dataset
 
 - [Original dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset)
-
-- Original data:
     - 10 classes, for 10 unique hand signs.
 	- Image size: 100x100
 	- Color space: RGB
