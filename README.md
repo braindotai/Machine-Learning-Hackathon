@@ -11,7 +11,7 @@ at least 90%.
 
 ## The dataset
 
-- Source: https://en.wikipedia.org/wiki/Sign_language
+- [Original dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset)
 
 - Original data:
     - 10 classes, for 10 unique hand signs.
