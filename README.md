@@ -16,6 +16,9 @@ at least 90%.
 	- Image size: 100x100
 	- Color space: RGB
 
+<img src="./images/original-dataset.png">
+
+
 - Applied data preprocessing
     - Reshaped to 64x64
     - From RGB to 1 channel grayscale
