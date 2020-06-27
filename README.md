@@ -158,7 +158,7 @@ Estimated Total Size (MB): 9.26
 
 - Training Accuracy   : 99.819712
 - Validation Accuracy : 99.609375
-- Validation F1 Score : 0.9939696
+- Validation F1 Score : 0.9989696
 
 - Training Loss vs Epoch :-
 <img src="./images/training-loss.png">
